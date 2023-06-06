@@ -1,0 +1,15 @@
+import cv2
+
+def loading_displaying_saving():
+    img = cv2.imread('Dom.jpg', cv2.IMREAD_GRAYSCALE)
+    cv2.imshow('Doma', img)
+    cv2.waitKey(0)
+    cv2.imwrite('Dom.jpg', img)
+
+#image = cv2.imread("/home/oatuser/Project/Image/sort.jpg")
+#cv2.imshow("Image", image)
+#cv2.waitKey(0)
+#cv2.destroyAllWindows()
+
+
+#loading_displaying_saving()
