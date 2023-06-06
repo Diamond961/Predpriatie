@@ -13,3 +13,14 @@ def loading_displaying_saving():
 
 
 #loading_displaying_saving()
+
+cd /home/oatuser/Project/Image 
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+
+ if command -v pyenv 1>/dev/null 2>&1; then
+>   eval "$(pyenv init -)"
+> fi
+ source $HOME/.bashrc
+ python --version
+ python import.py
